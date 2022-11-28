@@ -5,6 +5,7 @@ inoremap kj <ESC>
 
 "Show output with no browser needed  
 nmap <leader>nn :w !node<CR>
+nmap <leader>yp :w !python3<CR>
 
 nmap <leader>scl :set conceallevel=0<CR>
 
