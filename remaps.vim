@@ -24,8 +24,9 @@ nmap <leader>rr <c-r><CR>
 nmap <leader>do :t.<CR>
 
 "Terminals hor and ver
-nnoremap <leader>tv :botright vnew <Bar> :terminal<cr>
-nnoremap <leader>th :botright new <Bar> :terminal<cr>
+nnoremap <leader>tv  <Bar> :vsplit <cr>
+nnoremap <leader>th  <Bar> :split <cr>
+nnoremap <leader>tt :botright new <Bar> :terminal<cr>
 
 "Move lines like vscode
 nnoremap <A-j> :m .+1<CR>==
@@ -35,11 +36,11 @@ inoremap <A-k> <Esc>:m .-1<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 
-"Emoji 
 nmap <leader>em :Telescope symbols<CR>
+"Emoji 
 
 "Screen Shot
-vmap <leader>ss :TakeScreenShot<CR>
+vmap <leader>ts :TakeScreenShot<CR>
 
 "Split resize 
 nnoremap <leader>1 4<C-w>>

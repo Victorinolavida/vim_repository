@@ -7,8 +7,7 @@
 
 
 	"
-	Plug 'morhetz/gruvbox'
-	Plug 'moll/vim-bbye'
+Plug 'morhetz/gruvbox'
 
 "Markdown
 " If you have nodejs and yarn
@@ -21,7 +20,6 @@ Plug 'ziontee113/color-picker.nvim'
 
 "Status bar and tabs
 "Plug 'romgrk/barbar.nvim'
-Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 "Plug 'tiagovla/scope.nvim'
 "This is needed for bufferline
 Plug 'moll/vim-bbye'
@@ -38,11 +36,6 @@ Plug 'folke/todo-comments.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
 
 Plug 'scrooloose/nerdcommenter'
 " Track the engine.
